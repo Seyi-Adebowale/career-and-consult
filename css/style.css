@@ -109,12 +109,12 @@
 }
 .service {
   box-shadow: 0 4px 8px #99622b;
-  width: 320px;
+  width: 310px;
   height: 280px;
   padding-top: 50px;
   text-align: center;
   border-radius: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   cursor: pointer;
 }
 .service-logo {
@@ -203,6 +203,7 @@
   position: relative;
   height: 100vh; 
   overflow: hidden;
+  margin-top: 10px;
 }
 .parallax-bg {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
@@ -222,6 +223,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 10px;
 }
 
 .countdown {
@@ -250,6 +252,18 @@
 
 .countdown-item p {
   font-size: 40px;
+}
+@media(max-width: 572px){
+  .circle {
+    width: 80px; 
+    height: 80px; 
+    line-height: 80px;
+    font-size: 40px;
+  }
+  
+  .countdown-item p {
+    font-size: 20px;
+  }
 }
 .summary {
   background-image: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)),
