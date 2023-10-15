@@ -1,0 +1,65 @@
+@import '../css/global.css';
+
+.hero {
+    background-image: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 45vh; 
+}
+.contactus-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4% 4% 0;
+    text-align: center;
+  }
+  .contactus-box {
+    width: 350px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .contactus-box i {
+    color: #99622b;
+    font-size: 2.6rem;
+  }
+  .contactus-text .fab {
+    font-size: 1.4rem;
+    padding-right: 10px;
+  }
+  .contactus-text h3 {
+    color: #000;
+    padding-top: 10px;
+  }
+  .contactus-text {
+    word-wrap: break-word;
+  }
+  .contactus-text p,
+  .contactus-text a {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  .contactus-text a:hover {
+    text-decoration: underline;
+  }
+  .form-map {
+    padding: 0 4%;
+    width: 100%;
+    margin: auto;
+  }
+  .contactus-map {
+    margin: 0 auto 30px;
+  }
+  @media (max-width: 900px) {
+    .sub-header h1 br {
+      display: block;
+    }
+  }
+  @media (max-width: 400px) {
+    .contactus-box {
+      width: 310px;
+    }
+    .contactus-text a {
+      font-size: 1rem;
+    }
+  }
