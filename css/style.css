@@ -203,7 +203,6 @@
   position: relative;
   height: 100vh; 
   overflow: hidden;
-  margin-top: 10px;
 }
 .parallax-bg {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
