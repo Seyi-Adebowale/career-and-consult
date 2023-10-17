@@ -46,7 +46,7 @@ for (let i = 0; i < nav.length; i++) {
     nav[i].classList.add("selected");
   } else if (
     nav[i].innerHTML.includes("Articles") &&
-    location.pathname.includes("articles")
+    location.pathname.includes("article")
   ) {
     nav[i].classList.add("selected");
   } else if (

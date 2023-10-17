@@ -1,0 +1,110 @@
+@import "../css/global.css";
+
+.hero {
+  background-image: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/about-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+}
+.detail {
+  width: 60%;
+  margin: auto;
+}
+.detail h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #99622b;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.detail p {
+  font-size: 20px;
+  text-align: justify;
+}
+.mv {
+  box-shadow: 0 4px 4px #99622b;
+  border: 1px solid #99622b;
+  width: 300px;
+  height: 280px;
+  padding-top: 50px;
+  text-align: center;
+  border-radius: 10px;
+  /* margin-top: 20px; */
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+.mv-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: -90px auto 0;
+  /* padding: 20px; */
+  background-color: #99622b;
+  border: 6px solid #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.mv-logo i {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.mv-heading {
+  background-color: #99622b;
+  color: white;
+  text-align: center;
+  margin: 10px 0 15px;
+  /* margin: 20px auto; */
+}
+.mv-text {
+  text-align: justify;
+  padding: 0 15px;
+}
+.mission-vision {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.mv-text ul {
+  list-style-type: square;
+}
+.mv-text ul::marker {
+  color: #99622b;
+}
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-member {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.team-member p{
+    color: #99622b;
+}
+.team-member h3{
+    font-size: 24px;
+}
+/* Adjust styles for different screen sizes */
+@media (max-width: 768px) {
+  .team-member {
+    flex: 0 0 100%;
+  }
+}
