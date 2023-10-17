@@ -103,4 +103,11 @@
   .team-member {
     flex: 0 0 100%;
   }
+  .detail{
+    width: 85%;
+  }
+  .faq{
+    width: 100%;
+    margin: auto;
+  }
 }
