@@ -2,13 +2,14 @@
 .carousel {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 .carousel .carousel-inner .carousel-item {
   position: relative;
 }
 .carousel-item img {
   height: 100vh;
-  width: auto;
+  width: 100%;
   object-position: center;
   object-fit: cover;
 }
