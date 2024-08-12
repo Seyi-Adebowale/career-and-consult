@@ -41,7 +41,7 @@ nav {
 }
 .logo img {
   max-width: 100px;
-  background-color: #99622b;
+  /* background-color: #99622b; */
 }
 nav ul {
   list-style: none;
