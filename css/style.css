@@ -94,8 +94,8 @@
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
-  margin: auto;
-  gap: 8px;
+  margin: 40px auto;
+  gap: 15px;
 }
 .image-container a{
   text-decoration: none;
@@ -139,6 +139,7 @@
 }
 .programs {
   width: 100%;
+  margin: auto;
   text-align: center;
   position: relative;
   background-color: #f0f0f07a;
@@ -151,11 +152,14 @@
   transition: transform 1s;
 }
 .programs-container {
-  margin-top: 60px;
+  margin: 60px auto 0;
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-around;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+
 }
 .service {
   box-shadow: 0 4px 8px #99622b;
